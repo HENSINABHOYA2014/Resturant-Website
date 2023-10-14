@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color:#fff;
+    --black-color:#212121;
+    --light-white-color:#EEEEEE;
+    --Jost-font: 'Jost';
+    --Cormorant-font: 'Cormorant Garamond';
+    --dark-orange-color:#DD5903;
+    --light-orange-color:#C8935f;
+}
+.container{
+    max-width: 1140px;
+    margin:auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* comman class */
+.dark-black-color{
+    background-color: black;
+}
+.black-color{
+    background-color: #212121;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.text-align-center{
+    text-align: center;
+}
+.margin-auto{
+    margin: auto;
+}
+.white-color{
+    color:var(--white-color) ;
+}
+.display-block{
+    display: block;
+}
+/* header */
+header{
+    width: 100%;
+    padding: 15px 0;
+    position: absolute;
+}
+a{
+    text-decoration: 0;
+    color: var(--white-color);
+    padding: 0 15px;
+    margin: 0;
+    list-style-type: 0;
+    font-family: var(--Jost-font);
+    font-size: 13px;
+    font-weight:500;
+}
+
+ li{
+    list-style-type: none;
+}
+button{
+    font-family: var(--Jost-font);
+    border:2px solid var(--white-color);
+    padding: 10px 25px;
+    color: var(--white-color);
+    background-color: transparent;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: #fff;
+    color: var(--black-color);
+}
+
+/* banner */
+
+
+.banner{
+    background-image: url("../img/1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #212121;
+    
+}
+/* About Us */
+.about-img{
+    padding: 100px 0;
+}
+.about-content{
+    padding: 180px 15px;
+}
+span.pt-subtitle{
+    color: var(--light-orange-color);
+    font-size: 14px;
+    font-family: var(--Jost-font);
+    font-weight: 800;
+}
+h3.pt-title{
+    font-size: 56px;
+    color: var(--white-color);
+    font-family: var(--Cormorant-font);
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 15px 0;
+}
+div.pt-title-text,.pt-title-text-1{
+    font-size: 18px;
+    font-family: var(--Jost-font);
+    font-weight: 500;
+    line-height: 30px;
+    padding: 10px 0;
+    color: var(--light-white-color);
+}
+/* service */
+.service-img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: block;
+}
+.w-33{
+    width: 33.33%;
+
+}
+span.title{
+    color: var(--dark-orange-color);
+    font-family: var(--Jost-font);
+    font-size: 13px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    display: block;
+    margin: 50px 0;
+    
+}
+div.service-content{
+    padding: 130px 0; 
+    
+    
+    
+}
+h5.sub-title{
+    
+    font-family: var(--Cormorant-font);
+    font-size: 36px;
+   font-weight: 500;
+    color: var(--white-color);
+    line-height: 2px;
+}
+p.paregraph{
+    color: var(--white-color);
+    font-weight: 500;
+    font-family: var(--Jost-font);
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    margin:40px 0;
+    
+}
+button.btn{
+    font-family: var(--Jost-font);
+    border:2px solid var(--white-color);
+    padding: 10px 25px;
+    color: var(--white-color);
+    background-color: transparent;
+    transition: all 0.5s;
+       
+}
+button.btn:hover{
+    background-color: var(--light-orange-color);
+    border-color: var(--dark-orange-color);
+}
+/* Founded */
+.w-50{
+    width: 50%;
+}
+span.found-title{
+    font-weight: 800;
+    color: #DD5903;
+    font-family: var(--Jost-font);
+    letter-spacing: 2px;
+}
+h4{
+    font-family: var(--Cormorant-font);
+    font-size: 66px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: var(--white-color);
+}
+.fonuder-content{
+    padding: 120px 25px;
+}
+.fonuder-img{
+    padding: 120px 25px;
+}
+.founded-second-img{
+    padding: 70px 0 0 0;
+}
+.background-img{
+    background-image: url('../img/10.jpg');
+}
+.w-25{
+    width: 25%;
+}
+.food-img{
+   
+    padding: 95px 25px 25px 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+}
+.food-img:hover{
+    margin-bottom: 10px;
+}
+a.menu-list{
+    font-size:21px; 
+    color:var(--light-white-color);
+    font-family: var(--Cormorant-font);
+    letter-spacing: 3px;
+    transition: all 0.5s;
+   
+}
+a.menu-list:hover{
+    color: var(--light-orange-color);
+}
+span.subtitle,span.subtitle-1{
+    font-size: 16px;
+    font-family: var(--Jost-font);
+    font-weight: 800;
+    color:var(--dark-orange-color);
+}
+h3.title-sub-title{
+    color: var(--white-color);
+    letter-spacing: 3px;
+    font-family: var(--Cormorant-font);
+    font-size: 74px;
+    
+    
+
+}
+/* prive-list */
+.price-list{
+    background-image: url("../img/13.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 397px;
+    height: 508px;
+    border: 2px solid var(--light-white-color);
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.655);
+    
+}
+h6.lunch-part{
+    font-size: 26px;
+    font-family: var(--Cormorant-font);
+    color: #EEEEEE;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 35px 0 10px 0;
+}
+div.lunch-time{
+    font-family: var(--Jost-font);
+    font-size:16px;
+    color: var(--white-color);
+    font-weight: 500;
+    text-align: center;
+    margin:0 0 10px 0;
+}
+h6.food-list{
+    color:var(--white-color);
+    font-family: var(--Jost-font);
+    font-weight: 700;
+    margin: 30px 0 0 45px;
+    font-size: 21px ;
+}
+div.food-list-lines{
+    border-top: 1px solid var(--light-white-color);
+    width: 15px;
+}
+p.food-menu-detail{
+    color: var(--light-white-color);
+    font-family: var(--Jost-font);
+    margin: 8px 0 0 45px;
+    font-size:16px;
+}
+span.food-rate{
+    margin-left: 110px;
+}
+.reservations{
+    background-image: url("../img/16.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reservation-content{
+   padding: 130px 0;
+}
+span.subtitle-1{
+    color: var(--white-color);
+}
+.pt-title-text-1{
+    font-size: 24px;
+    line-height:45px;
+}
+button.reservation-button{
+    background-color: #DD5903;
+    color: var(--white-color);
+    transition: all 0.5s;
+    border: none;
+    font-size: 16px;
+    margin: 25px 0;
+
+}
+button.reservation-button:hover{
+    margin-bottom: -10px;
+}
+p.address{
+    color: var(--white-color);
+    font-size: 16px;
+    font-family:var(--Jost-font) ;
+    font-weight: 600;
+    padding: 30px 0 10px 0;
+}
+a.contact-line{
+    font-size: 16px;
+    transition: all 0.5s;
+    margin: 0 0 15px 0;
+}
+a.contact-line:hover{
+    color: var(--light-orange-color);
+}
+.footer-part{
+    padding: 80px 0;
+}
+i{
+    padding: 0 15px;
+    transition: all 0.5s;
+    color: var(--white-color);
+    font-size: 18px;
+}
+i:hover{
+    scale: 1.0;
+    color: var(--dark-orange-color);
+}
